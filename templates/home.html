@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paws Rescue Center - Home</title>
-    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
-</head>
-
-<body>
-    <h1>
-        <center>Paws Rescue Center 🐾</center>
-    </h1>
-</body>
-
-</html>
+{% extends "base.html" %}
+<!-- Replacement for Title -->
+{% block title %}
+Home Page
+{% endblock %}
+<!-- Replacement for Content -->
+{% block content %}
+<h1>Home Page</h1>
+<p>Welcome to the Jinja2 Demo.</p>
+{% endblock %}
