@@ -15,6 +15,9 @@
   left: 0;
   bottom: 0;
 }
+#content {
+  padding: 20px;
+}
 body {
   background: burlywood;
   margin: 0;
@@ -57,10 +60,6 @@ li {
   color: white;
   font-size: 40px;
   margin: 0;
-}
-
-#content {
-  padding: 20px;
 }
 
 #footer {
